@@ -1,0 +1,26 @@
+h3{
+    font-size: 25px;
+    font-family: cursive;
+    border-radius: 25px;
+}
+
+.btn-success:hover{
+
+   background-color: rgb(171, 255, 255);
+    border-radius: 25%;
+    border-bottom: rgb(255, 181, 246) 3px outset ;
+    border-top: #cab3ff 3px outset ;
+    color: black;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(65, 44, 255);}
+    to {box-shadow: 1px 1px 38px rgb(37, 255, 248);}
+    
+}
